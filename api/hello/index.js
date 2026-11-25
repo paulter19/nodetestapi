@@ -13,9 +13,8 @@ export default function handler(req, res) {
     });
   }
 
-  var newMessage = "hi" + name;
 
   return res.status(200).json({
-    message: newMessage 
+    message: "Hiiiii" 
   });
 }
